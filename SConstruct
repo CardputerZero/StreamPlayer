@@ -93,7 +93,7 @@ else:
     except Exception:
         update = True
 
-if update:
+if update and "CardputerZero" in os.environ:
     with open(env["PROJECT_TOOL_S"]) as f:
         exec(f.read())
     down_url = "https://github.com/dianjixz/M5CardputerZero-UserDemo/releases/download/{}/sdk_bsp.tar.gz".format(version)
