@@ -629,7 +629,7 @@ static void send_key_item_event(lv_sdl_keyboard_t * dev,
 
     (void)elm;
 
-    /* UserDemo 只消费 LVGL 的 LV_EVENT_KEY，保留这段封装让 SDL 和真机
+    /* StreamPlayer 只消费 LVGL 的 LV_EVENT_KEY，保留这段封装让 SDL 和真机
      * 分支共享 key_item 填充逻辑，但不再额外广播 APPLaunch 的私有事件。 */
     free(elm);
 }

@@ -51,4 +51,4 @@ fi
 CONFIG_REPO_AUTOMATION=1 CardputerZero=y scons -j"${JOBS}"
 ssh "${SSH_USER}@${HOST}" "mkdir -p '${APP_DIR}/dist'"
 rsync -az --delete dist/ "${SSH_USER}@${HOST}:${APP_DIR}/dist/"
-ssh "${SSH_USER}@${HOST}" "chmod +x '${APP_DIR}/dist/M5CardputerZero-UserDemo'"
+ssh "${SSH_USER}@${HOST}" "chmod +x '${APP_DIR}/dist/M5CardputerZero-StreamPlayer'"

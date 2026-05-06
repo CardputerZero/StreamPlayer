@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=StreamPlayer
+Exec=/usr/share/APPLaunch/bin/M5CardputerZero-StreamPlayer
+Terminal=false
+Icon=share/images/stream-player.png
+Type=Application
